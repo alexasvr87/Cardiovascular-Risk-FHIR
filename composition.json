@@ -1,0 +1,37 @@
+{
+  "resourceType": "Composition",
+  "id": "example-composition",
+  "status": "final",
+  "type": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "34133-9",
+        "display": "Summary of episode note"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/example-patient"
+  },
+  "date": "2024-10-23T14:30:00Z",
+  "title": "Cardiovascular and Metabolic Risk Assessment",
+  "section": [
+    {
+      "title": "Findrisk Assessment",
+      "entry": [
+        {
+          "reference": "RiskAssessment/example-risk-assessment"
+        }
+      ]
+    },
+    {
+      "title": "Clinical Observations",
+      "entry": [
+        {
+          "reference": "Observation/example-blood-pressure"
+        }
+      ]
+    }
+  ]
+}

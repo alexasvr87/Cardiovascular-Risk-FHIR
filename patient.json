@@ -1,0 +1,20 @@
+{
+  "resourceType": "Patient",
+  "id": "example-patient",
+  "identifier": [
+    {
+      "use": "official",
+      "system": "http://hospital.smarthealth.org/patients",
+      "value": "12345"
+    }
+  ],
+  "name": [
+    {
+      "use": "official",
+      "family": "González",
+      "given": ["Juan", "Carlos"]
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1980-02-15"
+}

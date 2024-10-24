@@ -1,0 +1,18 @@
+{
+  "resourceType": "RiskAssessment",
+  "id": "example-risk-assessment",
+  "status": "final",
+  "subject": {
+    "reference": "Patient/example-patient"
+  },
+  "occurrenceDateTime": "2024-10-23T14:30:00Z",
+  "prediction": [
+    {
+      "outcome": {
+        "text": "Risk of Type 2 Diabetes"
+      },
+      "probabilityDecimal": 0.3,
+      "rationale": "Based on FINDRISC scale"
+    }
+  ]
+}
